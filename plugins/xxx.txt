@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=C:/Users/Sharplee/Desktop/Plugins/commonapi/target/common-api-1.0-SNAPSHOT.jar -DgroupId=com.java -DartifactId=common-api -Dversion=1.0-SNAPSHOT -Dpackaging=jar

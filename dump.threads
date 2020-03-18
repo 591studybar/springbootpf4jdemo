@@ -1,0 +1,897 @@
+Thread 0x82134708
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.socketRead(Ljava/io/FileDescriptor;[BIII)I (SocketInputStream.java:116)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:170)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:141)
+  at java.io.BufferedInputStream.fill()V (BufferedInputStream.java:246)
+  at java.io.BufferedInputStream.read()I (BufferedInputStream.java:265)
+  at java.io.FilterInputStream.read()I (FilterInputStream.java:83)
+  at sun.rmi.transport.tcp.TCPTransport.handleMessages(Lsun/rmi/transport/Connection;Z)V (TCPTransport.java:550)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0()V (TCPTransport.java:826)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0()Ljava/lang/Void; (TCPTransport.java:683)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$$Lambda$1.run()Ljava/lang/Object; (Unknown Source)
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run()V (TCPTransport.java:682)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x82134b70, line=2
+    objectId=0x821595c0, line=2
+    objectId=0x82134b48, line=2
+    objectId=0x821530f8, line=4
+    objectId=0x821530f8, line=5
+    objectId=0x80e6bbf0, line=7
+    objectId=0x82153120, line=7
+    objectId=0x82153158, line=7
+    objectId=0x82134a78, line=8
+    objectId=0x80e6bc48, line=8
+    objectId=0x82134b70, line=8
+    objectId=0x821530f8, line=8
+    objectId=0x82153178, line=8
+    objectId=0x82134c40, line=8
+    objectId=0x82153198, line=8
+    objectId=0x821531b0, line=8
+    objectId=0x821531d0, line=8
+    objectId=0x821531f8, line=8
+    objectId=0x82153120, line=8
+    objectId=0x82153230, line=8
+    objectId=0x82134a78, line=9
+    objectId=0x821530e8, line=10
+    objectId=0x82134a78, line=12
+    objectId=0x82134708, line=12
+    objectId=0x82153248, line=12
+    objectId=0x80ef9d60, line=13
+    objectId=0x821346d8, line=13
+    objectId=0x82134708, line=13
+    objectId=0x82134a78, line=13
+    objectId=0x821346d8, line=14
+    objectId=0x82134708, line=15
+
+Thread 0x82133f30
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.socketRead(Ljava/io/FileDescriptor;[BIII)I (SocketInputStream.java:116)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:170)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:141)
+  at java.io.BufferedInputStream.fill()V (BufferedInputStream.java:246)
+  at java.io.BufferedInputStream.read()I (BufferedInputStream.java:265)
+  at java.io.FilterInputStream.read()I (FilterInputStream.java:83)
+  at sun.rmi.transport.tcp.TCPTransport.handleMessages(Lsun/rmi/transport/Connection;Z)V (TCPTransport.java:550)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0()V (TCPTransport.java:826)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0()Ljava/lang/Void; (TCPTransport.java:683)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$$Lambda$1.run()Ljava/lang/Object; (Unknown Source)
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run()V (TCPTransport.java:682)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x82134398, line=2
+    objectId=0x8215f5d0, line=2
+    objectId=0x82134370, line=2
+    objectId=0x82153580, line=4
+    objectId=0x82153580, line=5
+    objectId=0x80e6bbf0, line=7
+    objectId=0x821535a8, line=7
+    objectId=0x821535e0, line=7
+    objectId=0x821342a0, line=8
+    objectId=0x80e6bc48, line=8
+    objectId=0x82134398, line=8
+    objectId=0x82153580, line=8
+    objectId=0x82153600, line=8
+    objectId=0x82134468, line=8
+    objectId=0x82153620, line=8
+    objectId=0x82153638, line=8
+    objectId=0x82153658, line=8
+    objectId=0x82153680, line=8
+    objectId=0x821535a8, line=8
+    objectId=0x821536b8, line=8
+    objectId=0x821342a0, line=9
+    objectId=0x82153570, line=10
+    objectId=0x821342a0, line=12
+    objectId=0x82133f30, line=12
+    objectId=0x821536d0, line=12
+    objectId=0x80ef9d60, line=13
+    objectId=0x82133f00, line=13
+    objectId=0x82133f30, line=13
+    objectId=0x821342a0, line=13
+    objectId=0x82133f00, line=14
+    objectId=0x82133f30, line=15
+
+Thread 0x82145b30
+  at java.lang.Object.wait(J)V (Native Method)
+  at com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout.run()V (ServerCommunicatorAdmin.java:168)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x82145d00, line=1
+    objectId=0x82135888, line=1
+    objectId=0x82145b30, line=2
+
+Thread 0x82133b38
+  at java.lang.Object.wait(J)V (Native Method)
+  at com.sun.jmx.remote.internal.ArrayNotificationBuffer.fetchNotifications(Lcom/sun/jmx/remote/internal/NotificationBufferFilter;JJI)Ljavax/management/remote/NotificationResult; (ArrayNotificationBuffer.java:449)
+  at com.sun.jmx.remote.internal.ArrayNotificationBuffer$ShareBuffer.fetchNotifications(Lcom/sun/jmx/remote/internal/NotificationBufferFilter;JJI)Ljavax/management/remote/NotificationResult; (ArrayNotificationBuffer.java:227)
+  at com.sun.jmx.remote.internal.ServerNotifForwarder.fetchNotifs(JJI)Ljavax/management/remote/NotificationResult; (ServerNotifForwarder.java:274)
+  at javax.management.remote.rmi.RMIConnectionImpl$4.run()Ljavax/management/remote/NotificationResult; (RMIConnectionImpl.java:1270)
+  at javax.management.remote.rmi.RMIConnectionImpl$4.run()Ljava/lang/Object; (RMIConnectionImpl.java:1268)
+  at javax.management.remote.rmi.RMIConnectionImpl.fetchNotifications(JIJ)Ljavax/management/remote/NotificationResult; (RMIConnectionImpl.java:1274)
+  at sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:62)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:498)
+  at sun.rmi.server.UnicastServerRef.dispatch(Ljava/rmi/Remote;Ljava/rmi/server/RemoteCall;)V (UnicastServerRef.java:324)
+  at sun.rmi.transport.Transport$1.run()Ljava/lang/Void; (Transport.java:200)
+  at sun.rmi.transport.Transport$1.run()Ljava/lang/Object; (Transport.java:197)
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at sun.rmi.transport.Transport.serviceCall(Ljava/rmi/server/RemoteCall;)Z (Transport.java:196)
+  at sun.rmi.transport.tcp.TCPTransport.handleMessages(Lsun/rmi/transport/Connection;Z)V (TCPTransport.java:568)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0()V (TCPTransport.java:826)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0()Ljava/lang/Void; (TCPTransport.java:683)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$$Lambda$1.run()Ljava/lang/Object; (Unknown Source)
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run()V (TCPTransport.java:682)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x82135b08, line=1
+    objectId=0x821358d0, line=1
+    objectId=0xd73cfe28, line=1
+    objectId=0x82135b08, line=1
+    objectId=0x82135bc0, line=2
+    objectId=0x821358d0, line=2
+    objectId=0x82135b08, line=2
+    objectId=0x82135898, line=3
+    objectId=0xd73cfe00, line=4
+    objectId=0xd73cfe00, line=5
+    objectId=0x821350f0, line=6
+    objectId=0xd73cfe00, line=6
+    objectId=0x82137c20, line=11
+    objectId=0xd73cf358, line=11
+    objectId=0x810dba00, line=11
+    objectId=0xd73cf358, line=15
+    objectId=0x82137bb0, line=15
+    objectId=0x80ca8340, line=15
+    objectId=0x80e6bbf0, line=16
+    objectId=0x82162ba0, line=16
+    objectId=0x82162bd8, line=16
+    objectId=0xd73cf358, line=16
+    objectId=0x82133db0, line=17
+    objectId=0x80e6bc48, line=17
+    objectId=0x82134e90, line=17
+    objectId=0x82162bf8, line=17
+    objectId=0x82162c20, line=17
+    objectId=0x82134f20, line=17
+    objectId=0x82162c40, line=17
+    objectId=0x82162c58, line=17
+    objectId=0x82162c78, line=17
+    objectId=0x82162ca0, line=17
+    objectId=0x82162ba0, line=17
+    objectId=0x82162cd8, line=17
+    objectId=0x82133db0, line=18
+    objectId=0x82162b90, line=19
+    objectId=0x82133db0, line=21
+    objectId=0x82133b38, line=21
+    objectId=0x82162cf0, line=21
+    objectId=0x80ef9d60, line=22
+    objectId=0x82133b08, line=22
+    objectId=0x82133b38, line=22
+    objectId=0x82133db0, line=22
+    objectId=0x82133b08, line=23
+    objectId=0x82133b38, line=24
+
+Thread 0x820f55d8
+
+  locals:
+
+Thread 0x820f57b8
+  at java.io.FileOutputStream.writeBytes([BIIZ)V (Native Method)
+  at java.io.FileOutputStream.write([BII)V (FileOutputStream.java:326)
+  at java.io.BufferedOutputStream.flushBuffer()V (BufferedOutputStream.java:82)
+  at java.io.BufferedOutputStream.flush()V (BufferedOutputStream.java:140)
+  at java.io.PrintStream.write([BII)V (PrintStream.java:482)
+  at sun.nio.cs.StreamEncoder.writeBytes()V (StreamEncoder.java:221)
+  at sun.nio.cs.StreamEncoder.implFlushBuffer()V (StreamEncoder.java:291)
+  at sun.nio.cs.StreamEncoder.flushBuffer()V (StreamEncoder.java:104)
+  at java.io.OutputStreamWriter.flushBuffer()V (OutputStreamWriter.java:185)
+  at java.io.PrintStream.write(Ljava/lang/String;)V (PrintStream.java:527)
+  at java.io.PrintStream.print(Ljava/lang/String;)V (PrintStream.java:669)
+  at java.io.PrintStream.println(Ljava/lang/String;)V (PrintStream.java:806)
+  at com.example.pf4jdemo.listener.ApplicationRunlistener.lambda$run$0()V (ApplicationRunlistener.java:22)
+  at com.example.pf4jdemo.listener.ApplicationRunlistener$$Lambda$696.run()V (Unknown Source)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x80c97fa8, line=0
+    objectId=0x80c97fa8, line=0
+    objectId=0x80c97f70, line=2
+    objectId=0x80c97f70, line=3
+    objectId=0x80c97f50, line=4
+    objectId=0x80c97f50, line=4
+    objectId=0x80c980b0, line=5
+    objectId=0x80c98098, line=7
+    objectId=0x80c97f50, line=9
+    objectId=0x81f56e18, line=9
+    objectId=0x80c97f50, line=9
+    objectId=0x80c97f50, line=11
+    objectId=0x80c97f50, line=11
+    objectId=0x81f56d70, line=13
+    objectId=0x820f57b8, line=14
+
+Thread 0x820f72e8
+  at sun.nio.ch.ServerSocketChannelImpl.accept0(Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;[Ljava/net/InetSocketAddress;)I (Native Method)
+  at sun.nio.ch.ServerSocketChannelImpl.accept(Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;[Ljava/net/InetSocketAddress;)I (ServerSocketChannelImpl.java:422)
+  at sun.nio.ch.ServerSocketChannelImpl.accept()Ljava/nio/channels/SocketChannel; (ServerSocketChannelImpl.java:250)
+  at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept()Ljava/nio/channels/SocketChannel; (NioEndpoint.java:466)
+  at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept()Ljava/lang/Object; (NioEndpoint.java:72)
+  at org.apache.tomcat.util.net.Acceptor.run()V (Acceptor.java:95)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f32bd8, line=1
+    objectId=0x81f32c88, line=1
+    objectId=0x820f7460, line=1
+    objectId=0x820f7488, line=1
+    objectId=0x81f32bd8, line=2
+    objectId=0x81f32cb0, line=2
+    objectId=0x820f7460, line=2
+    objectId=0x820f7488, line=2
+    objectId=0x814940e0, line=3
+    objectId=0x814940e0, line=4
+    objectId=0x81f2c7f8, line=5
+    objectId=0x820f72e8, line=6
+
+Thread 0x820f75a8
+  at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(JI[I[I[IJ)I (Native Method)
+  at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll()I (WindowsSelectorImpl.java:296)
+  at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Lsun/nio/ch/WindowsSelectorImpl$SubSelector;)I (WindowsSelectorImpl.java:278)
+  at sun.nio.ch.WindowsSelectorImpl.doSelect(J)I (WindowsSelectorImpl.java:159)
+  at sun.nio.ch.SelectorImpl.lockAndDoSelect(J)I (SelectorImpl.java:86)
+  at sun.nio.ch.SelectorImpl.select(J)I (SelectorImpl.java:97)
+  at org.apache.tomcat.util.net.NioEndpoint$Poller.run()V (NioEndpoint.java:711)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f33378, line=3
+    objectId=0x81f33378, line=4
+    objectId=0x81f334e8, line=4
+    objectId=0x81f334f8, line=4
+    objectId=0x81f33348, line=6
+    objectId=0x820f75a8, line=7
+
+Thread 0x81f325e0
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f325e0, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f325c0, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f327b0, line=7
+    objectId=0x81f325e0, line=7
+    objectId=0x81f327b0, line=8
+    objectId=0x81f327a0, line=9
+    objectId=0x81f325e0, line=10
+
+Thread 0x81f32300
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f32300, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f322e0, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f324c8, line=7
+    objectId=0x81f32300, line=7
+    objectId=0x81f324c8, line=8
+    objectId=0x81f324b8, line=9
+    objectId=0x81f32300, line=10
+
+Thread 0x81f32020
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f32020, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f32000, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f321e8, line=7
+    objectId=0x81f32020, line=7
+    objectId=0x81f321e8, line=8
+    objectId=0x81f321d8, line=9
+    objectId=0x81f32020, line=10
+
+Thread 0x81f31d40
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f31d40, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f2dd40, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f31f08, line=7
+    objectId=0x81f31d40, line=7
+    objectId=0x81f31f08, line=8
+    objectId=0x81f31ef8, line=9
+    objectId=0x81f31d40, line=10
+
+Thread 0x81f2da80
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f2da80, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f2da60, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f2dc48, line=7
+    objectId=0x81f2da80, line=7
+    objectId=0x81f2dc48, line=8
+    objectId=0x81f2dc38, line=9
+    objectId=0x81f2da80, line=10
+
+Thread 0x81f2d7a0
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f2d7a0, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f2d780, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f2d968, line=7
+    objectId=0x81f2d7a0, line=7
+    objectId=0x81f2d968, line=8
+    objectId=0x81f2d958, line=9
+    objectId=0x81f2d7a0, line=10
+
+Thread 0x81f2d4c0
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f2d4c0, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f2d4a0, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f2d688, line=7
+    objectId=0x81f2d4c0, line=7
+    objectId=0x81f2d688, line=8
+    objectId=0x81f2d678, line=9
+    objectId=0x81f2d4c0, line=10
+
+Thread 0x81f2d1e0
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f2d1e0, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f2d1c0, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f2d3a8, line=7
+    objectId=0x81f2d1e0, line=7
+    objectId=0x81f2d3a8, line=8
+    objectId=0x81f2d398, line=9
+    objectId=0x81f2d1e0, line=10
+
+Thread 0x81f2cf00
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f2cf00, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f2cee0, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f2d0c8, line=7
+    objectId=0x81f2cf00, line=7
+    objectId=0x81f2d0c8, line=8
+    objectId=0x81f2d0b8, line=9
+    objectId=0x81f2cf00, line=10
+
+Thread 0x81f2cc20
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.LinkedBlockingQueue.take()Ljava/lang/Object; (LinkedBlockingQueue.java:442)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Runnable; (TaskQueue.java:107)
+  at org.apache.tomcat.util.threads.TaskQueue.take()Ljava/lang/Object; (TaskQueue.java:33)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81f2cbe8, line=1
+    objectId=0x81f2cc20, line=1
+    objectId=0x81f2cbe8, line=2
+    objectId=0x81f2cc00, line=2
+    objectId=0x81f2cb58, line=3
+    objectId=0x81f2cb90, line=3
+    objectId=0x81f2cbb8, line=3
+    objectId=0x81f2cb58, line=4
+    objectId=0x81f2cb58, line=5
+    objectId=0x81f2cae8, line=6
+    objectId=0x81f2cae8, line=7
+    objectId=0x81f2cde8, line=7
+    objectId=0x81f2cc20, line=7
+    objectId=0x81f2cde8, line=8
+    objectId=0x81f2cdd8, line=9
+    objectId=0x81f2cc20, line=10
+
+Thread 0x81f3e6b8
+  at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(JI[I[I[IJ)I (Native Method)
+  at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll()I (WindowsSelectorImpl.java:296)
+  at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Lsun/nio/ch/WindowsSelectorImpl$SubSelector;)I (WindowsSelectorImpl.java:278)
+  at sun.nio.ch.WindowsSelectorImpl.doSelect(J)I (WindowsSelectorImpl.java:159)
+  at sun.nio.ch.SelectorImpl.lockAndDoSelect(J)I (SelectorImpl.java:86)
+  at sun.nio.ch.SelectorImpl.select(J)I (SelectorImpl.java:97)
+  at org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller.run()V (NioBlockingSelector.java:313)
+
+  locals:
+    objectId=0x81f3cf48, line=3
+    objectId=0x81f3cf48, line=4
+    objectId=0x81f3d0a8, line=4
+    objectId=0x81f3d0b8, line=4
+    objectId=0x81f3e6b8, line=6
+
+Thread 0x82040d28
+  at java.lang.Thread.sleep(J)V (Native Method)
+  at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.scan()V (FileSystemWatcher.java:246)
+  at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.run()V (FileSystemWatcher.java:236)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x82040ec8, line=1
+    objectId=0x82040ec8, line=2
+    objectId=0x82040d28, line=3
+
+Thread 0x8187ef90
+  at java.net.DualStackPlainSocketImpl.accept0(I[Ljava/net/InetSocketAddress;)I (Native Method)
+  at java.net.DualStackPlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (DualStackPlainSocketImpl.java:131)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:409)
+  at java.net.PlainSocketImpl.accept(Ljava/net/SocketImpl;)V (PlainSocketImpl.java:199)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at org.springframework.boot.devtools.livereload.LiveReloadServer.acceptConnections()V (LiveReloadServer.java:145)
+  at org.springframework.boot.devtools.livereload.LiveReloadServer$$Lambda$564.run()V (Unknown Source)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x8187f3c8, line=1
+    objectId=0x819b0b18, line=1
+    objectId=0x819fd448, line=1
+    objectId=0x8187f3c8, line=2
+    objectId=0x819b0b18, line=2
+    objectId=0x8187f308, line=3
+    objectId=0x819b0c20, line=3
+    objectId=0x819b0b18, line=3
+    objectId=0x8187f2e0, line=4
+    objectId=0x819b0b70, line=4
+    objectId=0x819b0c20, line=4
+    objectId=0x8187f2e0, line=5
+    objectId=0x819b0b70, line=5
+    objectId=0x8187f150, line=6
+    objectId=0x8187f140, line=7
+    objectId=0x8187ef90, line=8
+
+Thread 0x81493908
+  at java.lang.Thread.sleep(J)V (Native Method)
+  at org.apache.catalina.core.StandardServer.await()V (StandardServer.java:570)
+  at org.springframework.boot.web.embedded.tomcat.TomcatWebServer$1.run()V (TomcatWebServer.java:181)
+
+  locals:
+    objectId=0x814931d8, line=1
+    objectId=0x81493908, line=2
+
+Thread 0x814953c0
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:175)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2039)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/util/concurrent/RunnableScheduledFuture; (ScheduledThreadPoolExecutor.java:1088)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/lang/Object; (ScheduledThreadPoolExecutor.java:809)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x814953c0, line=1
+    objectId=0x81495670, line=2
+    objectId=0xd5af7a38, line=2
+    objectId=0x814930f8, line=3
+    objectId=0x81495390, line=3
+    objectId=0x81493098, line=5
+    objectId=0x81493098, line=6
+    objectId=0x81495588, line=6
+    objectId=0x814953c0, line=6
+    objectId=0x81495588, line=7
+    objectId=0x81495578, line=8
+    objectId=0x814953c0, line=9
+
+Thread 0x81495688
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.parkNanos(Ljava/lang/Object;J)V (LockSupport.java:215)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(J)J (AbstractQueuedSynchronizer.java:2078)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/util/concurrent/RunnableScheduledFuture; (ScheduledThreadPoolExecutor.java:1093)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/lang/Object; (ScheduledThreadPoolExecutor.java:809)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V (TaskThread.java:61)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x81495688, line=1
+    objectId=0x81495670, line=2
+    objectId=0xd5b5cdb8, line=2
+    objectId=0x814930f8, line=3
+    objectId=0x81495390, line=3
+    objectId=0x81495688, line=3
+    objectId=0x81493098, line=5
+    objectId=0x81493098, line=6
+    objectId=0x81495850, line=6
+    objectId=0x81495688, line=6
+    objectId=0x81495850, line=7
+    objectId=0x81495840, line=8
+    objectId=0x81495688, line=9
+
+Thread 0x8157fc18
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:143)
+  at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run()V (AbandonedConnectionCleanupThread.java:85)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x8165f4c8, line=1
+    objectId=0x8165f4e8, line=1
+    objectId=0x817d0e40, line=2
+    objectId=0x8157fe20, line=3
+    objectId=0x8157fdf0, line=3
+    objectId=0x8157fc18, line=3
+    objectId=0x817d0e40, line=3
+    objectId=0x8157fdf0, line=4
+    objectId=0x8157fc18, line=5
+
+Thread 0x80e52dc8
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.parkNanos(Ljava/lang/Object;J)V (LockSupport.java:215)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(J)J (AbstractQueuedSynchronizer.java:2078)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/util/concurrent/RunnableScheduledFuture; (ScheduledThreadPoolExecutor.java:1093)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/lang/Object; (ScheduledThreadPoolExecutor.java:809)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1067)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1127)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x80e52dc8, line=1
+    objectId=0x80ee3eb8, line=2
+    objectId=0xd6f46f08, line=2
+    objectId=0x80e53000, line=3
+    objectId=0x80ee3e88, line=3
+    objectId=0x80e52dc8, line=3
+    objectId=0x80e52fa0, line=5
+    objectId=0x80e52fa0, line=6
+    objectId=0x80e52f70, line=6
+    objectId=0x80e52dc8, line=6
+    objectId=0x80e52f70, line=7
+    objectId=0x80e52dc8, line=8
+
+Thread 0x80ee4048
+  at java.net.DualStackPlainSocketImpl.accept0(I[Ljava/net/InetSocketAddress;)I (Native Method)
+  at java.net.DualStackPlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (DualStackPlainSocketImpl.java:131)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:409)
+  at java.net.PlainSocketImpl.accept(Ljava/net/SocketImpl;)V (PlainSocketImpl.java:199)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept()Ljava/net/Socket; (LocalRMIServerSocketFactory.java:52)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop()V (TCPTransport.java:400)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run()V (TCPTransport.java:372)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x80e6bd70, line=1
+    objectId=0x821482f8, line=1
+    objectId=0x821657f0, line=1
+    objectId=0x80e6bd70, line=2
+    objectId=0x821482f8, line=2
+    objectId=0x80e6bcb0, line=3
+    objectId=0x82148400, line=3
+    objectId=0x821482f8, line=3
+    objectId=0x80e6bc80, line=4
+    objectId=0x82148350, line=4
+    objectId=0x82148400, line=4
+    objectId=0x80e6bc80, line=5
+    objectId=0x82148350, line=5
+    objectId=0x80e6bc80, line=6
+    objectId=0x80ee41f0, line=7
+    objectId=0x80ee41f0, line=8
+    objectId=0x80ee4048, line=9
+
+Thread 0x80ee4248
+  at java.net.DualStackPlainSocketImpl.accept0(I[Ljava/net/InetSocketAddress;)I (Native Method)
+  at java.net.DualStackPlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (DualStackPlainSocketImpl.java:131)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:409)
+  at java.net.PlainSocketImpl.accept(Ljava/net/SocketImpl;)V (PlainSocketImpl.java:199)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop()V (TCPTransport.java:400)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run()V (TCPTransport.java:372)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x80e6ad38, line=1
+    objectId=0x820f53d8, line=1
+    objectId=0x820f5a20, line=1
+    objectId=0x80e6ad38, line=2
+    objectId=0x820f53d8, line=2
+    objectId=0x80e6ac78, line=3
+    objectId=0x820f54e0, line=3
+    objectId=0x820f53d8, line=3
+    objectId=0x80e6ac50, line=4
+    objectId=0x820f5430, line=4
+    objectId=0x820f54e0, line=4
+    objectId=0x80e6ac50, line=5
+    objectId=0x820f5430, line=5
+    objectId=0x80ee43f8, line=6
+    objectId=0x80ee43f8, line=7
+    objectId=0x80ee4248, line=8
+
+Thread 0x80ee4450
+  at java.net.DualStackPlainSocketImpl.accept0(I[Ljava/net/InetSocketAddress;)I (Native Method)
+  at java.net.DualStackPlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (DualStackPlainSocketImpl.java:131)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:409)
+  at java.net.PlainSocketImpl.accept(Ljava/net/SocketImpl;)V (PlainSocketImpl.java:199)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop()V (TCPTransport.java:400)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run()V (TCPTransport.java:372)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x80e6a780, line=1
+    objectId=0x820f4f18, line=1
+    objectId=0x820f5a38, line=1
+    objectId=0x80e6a780, line=2
+    objectId=0x820f4f18, line=2
+    objectId=0x80e6a6c0, line=3
+    objectId=0x820f5020, line=3
+    objectId=0x820f4f18, line=3
+    objectId=0x80e6a698, line=4
+    objectId=0x820f4f70, line=4
+    objectId=0x820f5020, line=4
+    objectId=0x80e6a698, line=5
+    objectId=0x820f4f70, line=5
+    objectId=0x80ee45f8, line=6
+    objectId=0x80ee45f8, line=7
+    objectId=0x80ee4450, line=8
+
+Thread 0x80efbef0
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.socketRead(Ljava/io/FileDescriptor;[BIII)I (SocketInputStream.java:116)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:170)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:141)
+  at sun.nio.cs.StreamDecoder.readBytes()I (StreamDecoder.java:284)
+  at sun.nio.cs.StreamDecoder.implRead([CII)I (StreamDecoder.java:326)
+  at sun.nio.cs.StreamDecoder.read([CII)I (StreamDecoder.java:178)
+  at java.io.InputStreamReader.read([CII)I (InputStreamReader.java:184)
+  at java.io.BufferedReader.fill()V (BufferedReader.java:161)
+  at java.io.BufferedReader.readLine(Z)Ljava/lang/String; (BufferedReader.java:324)
+  at java.io.BufferedReader.readLine()Ljava/lang/String; (BufferedReader.java:389)
+  at com.intellij.rt.execution.application.AppMainV2$1.run()V (AppMainV2.java:64)
+
+  locals:
+    objectId=0x80f05f48, line=1
+    objectId=0x80f05f78, line=1
+    objectId=0x80f05fa0, line=1
+    objectId=0x80f05f48, line=2
+    objectId=0x80f05fa0, line=2
+    objectId=0x80f05f78, line=2
+    objectId=0x80f05f48, line=3
+    objectId=0x80f05fa0, line=3
+    objectId=0x80f07fb0, line=4
+    objectId=0x80f07fb0, line=5
+    objectId=0x80f11e48, line=5
+    objectId=0x80f07fe0, line=5
+    objectId=0x80e2a180, line=5
+    objectId=0x80f07fb0, line=6
+    objectId=0x80f11e48, line=6
+    objectId=0x80f08010, line=6
+    objectId=0x80f08010, line=7
+    objectId=0x80f11e48, line=7
+    objectId=0x80f08028, line=8
+    objectId=0x80f08028, line=9
+    objectId=0x80f08010, line=9
+    objectId=0x80f08028, line=10
+    objectId=0x80efbef0, line=11
+    objectId=0x80f08058, line=11
+    objectId=0x80f08028, line=11
+
+Thread 0x80ee4650
+
+  locals:
+
+Thread 0x80ef9720
+
+  locals:
+
+Thread 0x80ef9908
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:143)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:164)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:209)
+
+  locals:
+    objectId=0x80cd56b0, line=1
+    objectId=0x80cd56d0, line=1
+    objectId=0x80ef9908, line=3
+    objectId=0x80f08240, line=3
+
+Thread 0x80ef9ae8
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Reference.java:191)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:153)
+
+  locals:
+    objectId=0x80f08250, line=2
+    objectId=0x80ef9ae8, line=3
+

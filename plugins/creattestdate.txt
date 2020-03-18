@@ -1,0 +1,38 @@
+-- 学生表student
+-- 学号 姓名 性别 出生年月 所在班级
+CREATE table student(
+sno VARCHAR(20)primary key,
+sname VARCHAR(20) not null,
+ssex VARCHAR(10) not null,
+sbirthday datetime,
+class VARCHAR(20)
+);
+-- 课程表course
+-- 课程号 课程名称 教师编号
+CREATE table course(
+cno VARCHAR(20) PRIMARY key,
+cname VARCHAR(20) not null,
+tno VARCHAR(20) not null,
+FOREIGN key(tno) REFERENCES teacher(tno)
+);
+
+-- 成绩表score
+-- 学号 课程号 成绩
+CREATE table score(
+sno VARCHAR(20) PRIMARY key,
+cno VARCHAR(20) not null,
+degree DECIMAL,
+FOREIGN key(sno) REFERENCES student(sno),
+FOREIGN key(cno) REFERENCES course(cno)
+);
+
+-- 教师表teacher
+-- 教师编号 教师姓名 教师性别 教师出生年月 职称  所在部门
+CREATE table teacher(
+tno VARCHAR(20) PRIMARY key,
+tname VARCHAR(20) not null,
+tsex VARCHAR(10) not null,
+tbirthday datetime,
+prof VARCHAR(20) not null,
+depart VARCHAR(20) not null
+);
